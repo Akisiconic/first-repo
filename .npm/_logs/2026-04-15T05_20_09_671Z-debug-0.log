@@ -1,0 +1,78 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.11.0
+1 info using npm@11.11.0
+2 info using node@v24.14.1
+2 info using node@v24.14.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/aykay1/Javascript/.npmrc
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+5 silly config load:file:/Users/aykay1/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+4 silly config load:file:/Users/aykay1/Library/Caches/typescript/6.0/.npmrc
+5 silly config load:file:/Users/aykay1/.npmrc
+7 verbose title npm config get prefix
+6 silly config load:file:/usr/local/etc/npmrc
+8 verbose argv "config" "get" "prefix"
+7 verbose title npm install types-registry@latest
+9 verbose logfile logs-max:10 dir:/Users/aykay1/.npm/_logs/2026-04-15T05_20_09_671Z-
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/Users/aykay1/.npm/_logs/2026-04-15T05_20_09_671Z-
+10 verbose logfile /Users/aykay1/.npm/_logs/2026-04-15T05_20_09_671Z-debug-0.log
+10 verbose logfile /Users/aykay1/.npm/_logs/2026-04-15T05_20_09_671Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd /Users/aykay1/Javascript
+13 verbose os Darwin 25.3.0
+14 verbose node v24.14.1
+15 verbose npm  v11.11.0
+16 verbose exit 0
+17 info ok
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/types-registry 243ms (cache revalidated)
+15 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:622112 disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest types-registry@0.1.765
+18 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/types-registry 77ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/types-registry set size:1343988 disposed:false
+21 silly placeDep ROOT types-registry@0.1.765 REPLACE for:  want: 0.1.765
+22 silly reify moves {}
+23 silly audit bulk request {
+23 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+23 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+23 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+23 silly audit   '@types/mocha': [ '10.0.10' ],
+23 silly audit   '@types/node': [ '25.6.0' ],
+23 silly audit   '@types/react': [ '19.2.14' ],
+23 silly audit   '@types/shelljs': [ '0.10.0' ],
+23 silly audit   '@types/sprintf-js': [ '1.1.4' ],
+23 silly audit   '@types/tunnel': [ '0.0.7' ],
+23 silly audit   braces: [ '3.0.3' ],
+23 silly audit   csstype: [ '3.2.3' ],
+23 silly audit   'fast-glob': [ '3.3.3' ],
+23 silly audit   fastq: [ '1.20.1' ],
+23 silly audit   'fill-range': [ '7.1.1' ],
+23 silly audit   'glob-parent': [ '5.1.2' ],
+23 silly audit   'is-extglob': [ '2.1.1' ],
+23 silly audit   'is-glob': [ '4.0.3' ],
+23 silly audit   'is-number': [ '7.0.0' ],
+23 silly audit   merge2: [ '1.4.1' ],
+23 silly audit   micromatch: [ '4.0.8' ],
+23 silly audit   picomatch: [ '2.3.2' ],
+23 silly audit   'queue-microtask': [ '1.2.3' ],
+23 silly audit   reusify: [ '1.1.0' ],
+23 silly audit   'run-parallel': [ '1.2.0' ],
+23 silly audit   'to-regex-range': [ '5.0.1' ],
+23 silly audit   'undici-types': [ '7.19.2' ],
+23 silly audit   'types-registry': [ '0.1.765' ]
+23 silly audit }
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 106ms
+25 silly audit report {}
+26 verbose cwd /Users/aykay1/Library/Caches/typescript/6.0
+27 verbose os Darwin 25.3.0
+28 verbose node v24.14.1
+29 verbose npm  v11.11.0
+30 verbose exit 0
+31 info ok
